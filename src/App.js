@@ -21,10 +21,10 @@ const LandingText = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  color: #242423;
-  border: 1px solid seashell;
+  color: #141413;
+  /* border-left: 1px solid seashell; */
   height: 80vh;
-  width: 80vw;
+  width: 60vw;
   font-family: "Cinzel", serif;
   margin: auto;
 
@@ -43,8 +43,11 @@ class App extends Component {
             <LandingText>
               <div>
                 <h3>Company Is Community</h3>
-                <h1>Strategic Adventures</h1>
-                <h3>Your Team Is An Adventure</h3>
+                <hr/>
+                <h1>Strategic</h1>
+                <h1>Adventures</h1>
+                <hr/>
+                <h3>Becoming A Team <br/>Is An Adventure</h3>
               </div>
             </LandingText>
           </BackgroundFilter>
