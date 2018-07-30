@@ -10,6 +10,7 @@ const BackgroundImage = styled.div`
   background-position: center;
   background-size: cover;
 `;
+
 const BackgroundFilter = styled.div`
   background: rgba(190, 189, 187, 0.65);
   height: 100vh;
@@ -43,11 +44,15 @@ class App extends Component {
             <LandingText>
               <div>
                 <h3>Company Is Community</h3>
-                <hr/>
-                <h1>Strategic</h1>
-                <h1>Adventures</h1>
-                <hr/>
-                <h3>Becoming A Team <br/>Is An Adventure</h3>
+                <hr />
+                <div>
+                  <h1>Strategic</h1>
+                  <h1>Adventures</h1>
+                </div>
+                <hr />
+                <h3>
+                  Becoming A Team <br />Is An Adventure
+                </h3>
               </div>
             </LandingText>
           </BackgroundFilter>
