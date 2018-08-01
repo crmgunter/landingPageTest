@@ -31,7 +31,7 @@ const LandingText = styled.div`
 
   h1 {
     margin: auto;
-    font-size: 70px;
+    font-size: 7vw;
   }
 `;
 
