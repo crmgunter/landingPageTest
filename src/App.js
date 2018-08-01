@@ -33,7 +33,12 @@ const LandingText = styled.div`
     margin: auto;
     font-size: 7vw;
   }
+  
+  p {
+    font-size: 3vw;
+  }
 `;
+  
 
 class App extends Component {
   render() {
@@ -43,16 +48,16 @@ class App extends Component {
           <BackgroundFilter>
             <LandingText>
               <div>
-                <h3>Company Is Community</h3>
+                <p>Company Is Community</p>
                 <hr />
                 <div>
                   <h1>Strategic</h1>
                   <h1>Adventures</h1>
                 </div>
                 <hr />
-                <h3>
+                <p>
                   Becoming A Team <br />Is An Adventure
-                </h3>
+                </p>
               </div>
             </LandingText>
           </BackgroundFilter>
